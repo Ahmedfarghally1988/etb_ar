@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Home Page</title>
+    <title> الرحلات </title>
     <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon.png"/>
     <meta name="description" content=""/>
 
@@ -110,7 +110,6 @@
             </div>
         </div>
     </div>
-
     <header class="main-header sticky-header sticky-header--normal">
         <div class="container">
             <div class="main-header__inner">
@@ -227,581 +226,120 @@
             </div>
         </div>
     </header>
-    <section class="main-slider-one">
-        <div class="main-slider-one__carousel trevlo-owl__carousel owl-carousel owl-theme"
-             data-owl-options='{
-		"items": 1,
-		"margin": 0,
-		"loop": true,
-		"smartSpeed": 700,
-		"animateOut": "fadeOut",
-		"autoplayTimeout": 5000,
-		"nav": true,
-		"navText": ["<span class=\"icon-right-arrow\"></span>","<span class=\"icon-left-arrow\"></span>"],
-		"dots": false,
-		"autoplay": true
-		}'>
-            <div class="item">
-                <div class="main-slider-one__image" style="background-image: url(assets/images/banner-01.jpg);"></div>
-                <div class="container">
-                    <div class="main-slider-one__content">
-                        <h5 class="main-slider-one__sub-title"> عروض ورحلات مميزة <img src="assets/images/shapes/slider-1-shape-1.png" alt="trevlo"></h5>
-                        <h3 class="main-slider-one__title"> عروض رحلات داخل مصر  </h3>
-                    </div>
-                </div>
+
+
+
+    <section class="page-header">
+        <div class="container">
+            <h2 class="page-header__title wow animated fadeInLeft animated" data-wow-delay="0s" data-wow-duration="1500ms" style="visibility: visible; animation-duration: 1500ms; animation-delay: 0s; animation-name: fadeInLeft;"> فنادق شرم الشيخ </h2>
+            <div class="page-header__breadcrumb-box">
+                <ul class="trevlo-breadcrumb">
+                    <li><a href="index.html"> الرئيسية </a></li>
+                    <li><a href="index.html"> فنادق داخل مصر </a></li>
+                    <li> فنادق شرم الشيخ </li>
+                </ul>
             </div>
-            <div class="item">
-                <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/slider-1-2.jpg);"></div>
-                <div class="container">
-                    <div class="main-slider-one__content">
-                        <h5 class="main-slider-one__sub-title">عروض ورحلات مميزة <img src="assets/images/shapes/slider-1-shape-1.png" alt="trevlo"></h5>
-                        <h3 class="main-slider-one__title"> برامج سياحية  </h3>
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="main-slider-one__image" style="background-image: url(assets/images/backgrounds/slider-1-3.jpg);"></div>
-                <div class="container">
-                    <div class="main-slider-one__content">
-                        <h5 class="main-slider-one__sub-title">عروض رحلات داخل مصر <img src="assets/images/shapes/slider-1-shape-1.png" alt="trevlo"></h5>
-                        <h3 class="main-slider-one__title"> رحلات شهر العسل  </h3>
-                    </div>
-                </div>
-            </div>
-        </div><!-- banner-slider -->
-        <!-- banner-slider -->
-        <div class="banner-form wow fadeInUp" data-wow-delay="300ms">
-            <div class="container">
-                <form class="banner-form__wrapper" action="#">
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="banner-form__control">
-                                <label for="location">كلمات البحث</label>
-                                <input type="text" class="form-one__input" placeholder="بحث في الغردقة">
-                                <i class="icon-location-2"></i>
+        </div>
+    </section>
+
+
+    <section class="tour-listing-filter tour-listing pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3">
+                    <aside class="tour-listing-sidebar">
+                        <form action="#" class="tour-listing-sidebar__form tour-listing-sidebar__item wow animated fadeInUp" data-wow-delay="0.1s" data-wow-duration="1500ms">
+                            <div class="banner-form">
+                                <div class="banner-form__control">
+                                    <label for="location">اسم الفندق</label>
+                                    <input type="text" class="form-one__input" placeholder="بحث في الموقع">
+                                    <i class="icon-location-2"></i>
+                                </div>
+                                <div class="banner-form__control">
+                                    <label for="location">الواجهة</label>
+                                    <select name="location" class="selectpicker" id="location">
+                                        <option value="select">أبحث عن وجهتك</option>
+                                        <option value="spain">شرم الشسخ</option>
+                                        <option value="africa">الغردقة</option>
+                                        <option value="europe">العين السخنة</option>
+                                        <option value="thailand">طابا</option>
+                                        <option value="dubai">مرسى علم</option>
+                                        <option value="australia">الاقصر</option>
+                                        <option value="swizerlan">اسوان</option>
+                                    </select>
+                                    <i class="icon-location-2"></i>
+                                </div>
+                                <div class="banner-form__control">
+                                    <label for="type">عدد النجوم</label>
+                                    <select name="type" class="selectpicker" id="type">
+                                        <option value="select">5 نجوم</option>
+                                        <option value="spain">4 نجوم </option>
+                                        <option value="africa">3 نجوم</option>
+                                        <option value="europe">2 نجوم </option>
+                                        <option value="thailand">1 نجوم</option>
+                                    </select>
+                                    <i class="icon-star"></i>
+                                </div>
+                                <div class="banner-form__control">
+                                    <label for="date">التاريخ</label>
+                                    <input class="trevlo-multi-datepicker" id="date" type="text" name="date" placeholder="اختر التاريخ">
+                                    <i class="icon-calendar-5"></i>
+                                </div>
+
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="banner-form__control">
-                                <label for="type">البحث بعدد النجوم</label>
-                                <select name="type" class="selectpicker" id="type">
-                                    <option value="select">فنادق 5 نجوم</option>
-                                    <option value="spain">4 نجوم</option>
-                                    <option value="africa">3 نجوم</option>
-                                    <option value="europe">2 نجمة</option>
-                                    <option value="thailand">1 نجمة</option>
-                                </select>
-                                <i class="icon-hiking"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="banner-form__control">
-                                <label for="date">ابحث بالتاريخ</label>
-                                <input class="trevlo-multi-datepicker" id="date" type="text" name="date" placeholder="اختر التاريخ الان">
-                                <i class="icon-calendar-5"></i>
-                            </div>
-                        </div>
-                        <div class="col-lg-1">
-                            <div class="banner-form__btn">
-                                <button type="submit" aria-label="search submit" class="trevlo-btn trevlo-btn--base">
-                                    <span><i class="icon-search"></i></span>
+                            <div class="tour-listing-sidebar__price-ranger">
+                                <h3 class="tour-listing-sidebar__title tour-listing-sidebar__price-ranger-title">متوسط السعر</h3>
+                                <div class="price-ranger">
+                                    <div id="slider-range"></div>
+                                    <div class="ranger-min-max-block">
+                                        <div class="ranger-min-max-block-price">
+                                            <input type="text" readonly class="min">
+                                            <span class="ranger-min-max-block-line">-</span>
+                                            <input type="text" readonly class="max">
+                                        </div>
+                                        <button type="submit" class="trevlo-btn trevlo-btn--white-two"><span>نفذ</span></button>
+                                    </div>
+                                </div>
+                            </div><!-- /.price-slider -->
+                            <div class="tour-listing-sidebar__btn-box">
+                                <button type="submit" class="tour-listing-sidebar__btn trevlo-btn trevlo-btn--base">
+                                    <span class="icon-search"></span>
+                                    <span>ابحث الان</span>
                                 </button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-        <!-- banner-form -->
-    </section>
-    <section class="feature-one">
-        <div class="feature-one__bg" style="background-image: url(assets/images/shapes/feature-bg-1.png);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="sec-title text-center">
-                    <p class="sec-title__tagline"> عروض ورحلات مميزة </p>
-                    <h2 class="sec-title__title"> الوجهات المتخصصة لدينا </h2>
+                            </div><!-- /.tour-listing-sidebar__btn-box -->
+                        </form>
+                    </aside>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="100ms"
-                     style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-1.jpg" alt=""></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-1.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="150ms"
-                     style="visibility: visible; animation-delay: 150ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-2.jpg" alt=""></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-2.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="200ms"
-                     style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-3.jpg" alt=""></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-3.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="250ms"
-                     style="visibility: visible; animation-delay: 250ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-4.jpg" alt="trevlo"></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-4.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="100ms"
-                     style="visibility: visible; animation-delay: 100ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-5.jpg" alt=""></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-5.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mt-3 wow fadeInUp animated" data-wow-delay="150ms"
-                     style="visibility: visible; animation-delay: 150ms; animation-name: fadeInUp;">
-                    <div class="tour-type-two__box">
-                        <div class="tour-type-two__box__flipper">
-                            <div class="tour-type-two__box__front">
-                                <div class="tour-type-two__box__front__image"><img
-                                        src="assets/images/tour-3.jpg" alt=""></div>
-                                <div class="tour-type-two__box__front__content">
-                                    <div class="tour-type-two__box__front__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__front__title"> شرم الشيخ </h5>
-                                    <small> 100  فندق </small>
-                                </div>
-                            </div>
-                            <div class="tour-type-two__box__back">
-                                <div class="tour-type-two__box__back__image"><img
-                                        src="assets/images/tour-3.jpg" alt=""></div>
-                                <div class="tour-type-two__box__back__content">
-                                    <div class="tour-type-two__box__back__icon"><span class="icon-hiking-4"></span>
-                                    </div>
-                                    <h5 class="tour-type-two__box__back__title">شرم الشيخ</h5>
-                                    <a href="#" class="trevlo-btn py-3 px-4 mt-3"><span>More</span></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="why-choose-one">
-        <div class="why-choose-one__bg" style="background-image: url(assets/images/backgrounds/page-header-bg.jpg);"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12 col-lg-12 wow fadeInUp animated" data-wow-delay="200ms" style="visibility: visible; animation-delay: 200ms; animation-name: fadeInUp;">
-                    <div class="sec-title text-center">
-                        <p class="sec-title__tagline">عروض و رحلات مميزة</p>
-                        <h2 class="sec-title__title">  قم بتخصيص رحلاتك الخاصة في مصر  </h2>
-                        <a href="#" class="offer-one__btn trevlo-btn trevlo-btn--primary mt-5"><span>  أبدا الان  </span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="tour-listing-two tour-listing-two--home-three mt-5">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2 class="sec-title__title"> عروض ورحلات مميزة </h2>
-                <br>
-                <span> رحلات سياحية الي مصر لمدة 8 ايام و 7 ليالي تفاصيل البرنامج اليوم الاول : وصول و استقبال بمطار القاهرة الدولي- الانتقال بالأتوبيسات المكيفة للفندق – فى المساء التوجه الى الباخره العائمه للعشاء والاستمتاع… </span>
-            </div>
-            <div class="tour-listing-one__carousel trevlo-owl__carousel trevlo-owl__carousel--basic-nav trevlo-owl__carousel--with-shadow owl-theme owl-carousel" data-owl-options='{"items": 4, "margin": 30,  "smartSpeed": 700, "loop":false,  "autoplay": 6000, "nav":false, "dots":true, "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"], "responsive":{ "0":{ "items": 1 }, "500":{ "items": 2 }, "1200":{ "items": 4 }, "1400":{ "items": 4 } } }'>
-                <div class="item">
-                        <div class="tour-listing-two__card tour-listing__card">
-                            <a href="#" class="tour-listing__card-image-box">
-                                <img src="assets/images/tour-1.jpg" alt="" class="tour-listing__card-image">
-                                <div class="tour-listing__card-btn-group @@extraClassName">
-                                    <div class="tour-listing__card-discount @@innerExtraClassName">10% Off</div>
-                                    <div class="tour-listing__card-featured">مميزة</div>
-                                </div>
-                                <div class="tour-listing__card-image-overlay"></div>
-                            </a>
-                            <div class="tour-listing-two__card-show-content">
-                                <div class="tour-listing-two__card-show-title-box">
-                                    <h3 class="tour-listing-two__card-show-title tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                </div>
-                                <div class="tour-listing-two__card-show-divider"></div>
-                                <div class="tour-listing__card-bottom">
-                                    <div class="tour-listing__card-bottom-left">
-                                        <div class="tour-listing__card-day">
-                                            <span class="icon-clock-1"></span>
-                                            <p class="tour-listing-two__card-show-day-text tour-listing__card-day-text text-small">3 ايام</p>
-                                        </div>
-                                    </div>
-                                    <div class="tour-listing__card-bottom-right">
-                                        <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-listing-two__card-hover-content tour-listing__card-content">
-                                <h3 class="tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم ) </p>
-                                <div class="tour-listing-two__card-info">
-                                    <div>
-                                        <div class="tour-listing__card-location-box">
-                                            <span class="icon-location-1"></span>
-                                            <p class="tour-listing__card-location-text text-small">مصر , شرم الشيخ</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-divider"></div>
-                                <div class="tour-listing__card-bottom">
-                                    <div class="tour-listing__card-bottom-left">
-                                        <div class="tour-listing__card-day">
-                                            <span class="icon-clock-1"></span>
-                                            <p class="tour-listing__card-day-text text-small">3 ايام</p>
-                                        </div>
-                                    </div>
-                                    <div class="tour-listing__card-bottom-right">
-                                        <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
 
-                    </div>
-                <div class="item">
-                    <div class="tour-listing-two__card tour-listing__card">
-                        <a href="#" class="tour-listing__card-image-box">
-                            <img src="assets/images/tour-5.jpg" alt="" class="tour-listing__card-image">
-                            <div class="tour-listing__card-btn-group @@extraClassName">
-                                <div class="tour-listing__card-discount @@innerExtraClassName">10% Off</div>
-                                <div class="tour-listing__card-featured">Featured</div>
-                            </div>
-                            <div class="tour-listing__card-image-overlay"></div>
-                        </a>
-                        <div class="tour-listing-two__card-show-content">
-                            <div class="tour-listing-two__card-show-title-box">
-                                <h3 class="tour-listing-two__card-show-title tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            </div>
-                            <div class="tour-listing-two__card-show-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing-two__card-show-day-text tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tour-listing-two__card-hover-content tour-listing__card-content">
-                            <h3 class="tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم ) </p>
-                            <div class="tour-listing-two__card-info">
-                                <div>
-                                    <div class="tour-listing__card-location-box">
-                                        <span class="icon-location-1"></span>
-                                        <p class="tour-listing__card-location-text text-small">مصر , شرم الشيخ</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-listing__card-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="item">
-                    <div class="tour-listing-two__card tour-listing__card">
-                        <a href="#" class="tour-listing__card-image-box">
-                            <img src="assets/images/tour-3.jpg" alt="" class="tour-listing__card-image">
-                            <div class="tour-listing__card-btn-group @@extraClassName">
-                                <div class="tour-listing__card-discount @@innerExtraClassName">10% Off</div>
-                                <div class="tour-listing__card-featured">Featured</div>
-                            </div>
-                            <div class="tour-listing__card-image-overlay"></div>
-                        </a>
-                        <div class="tour-listing-two__card-show-content">
-                            <div class="tour-listing-two__card-show-title-box">
-                                <h3 class="tour-listing-two__card-show-title tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            </div>
-                            <div class="tour-listing-two__card-show-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing-two__card-show-day-text tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tour-listing-two__card-hover-content tour-listing__card-content">
-                            <h3 class="tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم ) </p>
-                            <div class="tour-listing-two__card-info">
-                                <div>
-                                    <div class="tour-listing__card-location-box">
-                                        <span class="icon-location-1"></span>
-                                        <p class="tour-listing__card-location-text text-small">مصر , شرم الشيخ</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-listing__card-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="item">
-                    <div class="tour-listing-two__card tour-listing__card">
-                        <a href="#" class="tour-listing__card-image-box">
-                            <img src="assets/images/tour-4.jpg" alt="" class="tour-listing__card-image">
-                            <div class="tour-listing__card-btn-group @@extraClassName">
-                                <div class="tour-listing__card-discount @@innerExtraClassName">10% Off</div>
-                                <div class="tour-listing__card-featured">Featured</div>
-                            </div>
-                            <div class="tour-listing__card-image-overlay"></div>
-                        </a>
-                        <div class="tour-listing-two__card-show-content">
-                            <div class="tour-listing-two__card-show-title-box">
-                                <h3 class="tour-listing-two__card-show-title tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            </div>
-                            <div class="tour-listing-two__card-show-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing-two__card-show-day-text tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tour-listing-two__card-hover-content tour-listing__card-content">
-                            <h3 class="tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم ) </p>
-                            <div class="tour-listing-two__card-info">
-                                <div>
-                                    <div class="tour-listing__card-location-box">
-                                        <span class="icon-location-1"></span>
-                                        <p class="tour-listing__card-location-text text-small">مصر , شرم الشيخ</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-listing__card-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="item">
-                    <div class="tour-listing-two__card tour-listing__card">
-                        <a href="#" class="tour-listing__card-image-box">
-                            <img src="assets/images/tour-2.jpg" alt="" class="tour-listing__card-image">
-                            <div class="tour-listing__card-btn-group @@extraClassName">
-                                <div class="tour-listing__card-discount @@innerExtraClassName">10% Off</div>
-                                <div class="tour-listing__card-featured">Featured</div>
-                            </div>
-                            <div class="tour-listing__card-image-overlay"></div>
-                        </a>
-                        <div class="tour-listing-two__card-show-content">
-                            <div class="tour-listing-two__card-show-title-box">
-                                <h3 class="tour-listing-two__card-show-title tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            </div>
-                            <div class="tour-listing-two__card-show-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing-two__card-show-day-text tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="tour-listing-two__card-hover-content tour-listing__card-content">
-                            <h3 class="tour-listing__card-title"><a href="#"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                            <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم ) </p>
-                            <div class="tour-listing-two__card-info">
-                                <div>
-                                    <div class="tour-listing__card-location-box">
-                                        <span class="icon-location-1"></span>
-                                        <p class="tour-listing__card-location-text text-small">مصر , شرم الشيخ</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tour-listing__card-divider"></div>
-                            <div class="tour-listing__card-bottom">
-                                <div class="tour-listing__card-bottom-left">
-                                    <div class="tour-listing__card-day">
-                                        <span class="icon-clock-1"></span>
-                                        <p class="tour-listing__card-day-text text-small">3 ايام</p>
-                                    </div>
-                                </div>
-                                <div class="tour-listing__card-bottom-right">
-                                    <h4 class="tour-listing-two__card-show-price tour-listing__card-price">السعر: $160</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="tour-listing-one">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2 class="sec-title__title">عروض رحلات داخل مصر  </h2>
-            </div>
-            <div class="tour-listing-one__carousel">
-                <div class="container">
+                <div class="col-xl-9">
                     <div class="row">
+                        <div class="col-12">
+                            <div class="showing-result tour-listing-one__showing-result">
+                                <div class="showing-result__info-top">
+                                    <div class="showing-result__text-box">
+                                        <h3 class="showing-result__text">نتائج البحث 12 نتيجة</h3>
+                                    </div>
+                                    <div class="showing-result__sort">
+                                        <select class="selectpicker" aria-label="Sort by popular">
+                                            <option selected>رتب حسب</option>
+                                            <option value="1">الاكثر مشاهدة</option>
+                                            <option value="2">الاعلى سعراً</option>
+                                            <option value="3">الاقل سعراً</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-1.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -822,13 +360,12 @@
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-2.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -849,13 +386,12 @@
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-3.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -873,29 +409,67 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="tour-listing-one mt-5">
-        <div class="container">
-            <div class="sec-title text-center">
-                <h2 class="sec-title__title"> عروض الرحلات الخارجية </h2>
-            </div>
-            <div class="tour-listing-one__carousel">
-                <div class="container">
-                    <div class="row">
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
+                                        <img src="assets/images/tour-4.jpg" alt="" class="tour-listing__card-image">
+                                        <div class="tour-listing__card-image-overlay"></div>
+                                    </a>
+                                    <div class="tour-listing__card-content">
+                                        <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
+                                        <div class="tour-listing__card-inner-content">
+                                            <div class="tour-listing__card-divider"></div>
+                                            <div class="tour-listing__card-bottom">
+                                                <div class="tour-listing__card-bottom-left">
+                                                    <div class="tour-listing__card-day">
+                                                        <p class="tour-listing__card-day-text text-small"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-listing__card-bottom-right">
+                                                    <h4 class="tour-listing__card-price">Price: $160</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-12">
+                            <div class="item">
+                                <div class="tour-listing__card">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
+                                        <img src="assets/images/tour-5.jpg" alt="" class="tour-listing__card-image">
+                                        <div class="tour-listing__card-image-overlay"></div>
+                                    </a>
+                                    <div class="tour-listing__card-content">
+                                        <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
+                                        <div class="tour-listing__card-inner-content">
+                                            <div class="tour-listing__card-divider"></div>
+                                            <div class="tour-listing__card-bottom">
+                                                <div class="tour-listing__card-bottom-left">
+                                                    <div class="tour-listing__card-day">
+                                                        <p class="tour-listing__card-day-text text-small"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-listing__card-bottom-right">
+                                                    <h4 class="tour-listing__card-price">Price: $160</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4 col-12">
+                            <div class="item">
+                                <div class="tour-listing__card">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-1.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -916,13 +490,12 @@
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-2.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -943,13 +516,12 @@
                         <div class="col-md-4 col-lg-4 col-12">
                             <div class="item">
                                 <div class="tour-listing__card">
-                                    <a href="#" class="tour-listing__card-image-box card-img-f">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
                                         <img src="assets/images/tour-3.jpg" alt="" class="tour-listing__card-image">
                                         <div class="tour-listing__card-image-overlay"></div>
                                     </a>
                                     <div class="tour-listing__card-content">
                                         <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
-                                        <p class="tour-listing__card-text text-small"> رحلات شرم الشيخ فندق ايفي سيرين ايلاند شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم (ايفي سيرين شرم ) للاستمتاع باجمل عروض رحلات شرم الشيخ يبعد 7 كم من مطار شرم الشيخ على “ساحل البحر الأحمر” في جنوب سيناء.… </p>
                                         <div class="tour-listing__card-inner-content">
                                             <div class="tour-listing__card-divider"></div>
                                             <div class="tour-listing__card-bottom">
@@ -967,11 +539,56 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-4 col-lg-4 col-12">
+                            <div class="item">
+                                <div class="tour-listing__card">
+                                    <a href="#" class="tour-listing__card-image-box card-img-tour">
+                                        <img src="assets/images/tour-3.jpg" alt="" class="tour-listing__card-image">
+                                        <div class="tour-listing__card-image-overlay"></div>
+                                    </a>
+                                    <div class="tour-listing__card-content">
+                                        <h3 class="tour-listing__card-title"><a href="#">رحلات شرم الشيخ فندق ايفي سيرين ايلاند  شرم 4 نجوم(ارورا سيرين شرم )</a></h3>
+                                        <div class="tour-listing__card-inner-content">
+                                            <div class="tour-listing__card-divider"></div>
+                                            <div class="tour-listing__card-bottom">
+                                                <div class="tour-listing__card-bottom-left">
+                                                    <div class="tour-listing__card-day">
+                                                        <p class="tour-listing__card-day-text text-small"> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i> </p>
+                                                    </div>
+                                                </div>
+                                                <div class="tour-listing__card-bottom-right">
+                                                    <h4 class="tour-listing__card-price">Price: $160</h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-lg-12">
+                            <ul class="post-pagination tour-listing-filter__pagination">
+                                <li>
+                                    <a href="tour-listing-side-filter-left.html">1</a>
+                                </li>
+                                <li>
+                                    <a href="tour-listing-side-filter.html">2</a>
+                                </li>
+                                <li>
+                                    <a href="tour-listing-side-filter-right.html"><i class="fas fa-chevron-right"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
+
     <section class="counter-three mt-5">
         <div class="counter-three__bg" style="background-image: url(assets/images/shapes/counter-bg-3.png);"></div>
         <div class="counter-three__shape-top"></div>
