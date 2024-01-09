@@ -12832,7 +12832,7 @@ body.megamenu-popup-active .mobile-nav__content {
   border-bottom: 1px solid RGBA(255, 255, 255, 0.1);
 }
 .main-footer__bottom {
-  margin-top: 125px;
+  margin-top: 50px;
   padding-top: 25px;
   padding-bottom: 25px;
   background-color: var(--trevlo-black4, #241C26);
